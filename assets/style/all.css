@@ -12640,10 +12640,18 @@ fieldset:disabled .btn {
   }
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background: url(https://images.unsplash.com/photo-1506846540181-347008948fff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=893&q=80) center;
+  background-size: cover;
+  height: 480px;
+}
+
+.banner button {
+  padding: 10px 48px;
 }
 
 /*# sourceMappingURL=all.css.map */
