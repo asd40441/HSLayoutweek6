@@ -1,2 +1,10 @@
+.card-banner {
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=true) center center;
+  background-size: cover;
+}
+
+.card-info {
+  background-color: #190014CC;
+}
 
 /*# sourceMappingURL=index.css.map */
