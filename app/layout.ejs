@@ -8,6 +8,7 @@
   <title><%- title %></title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -15,7 +16,7 @@
   <nav class="navbar navbar-light pt-6 pb-6 border border-dark">
     <div class="container justify-content-end">
       <div class="navbar-brand position-absolute start-50 top-50 translate-middle">
-        <a href="javascript:;" class="text-primary">EXHIBINECTION</a>
+        <a href="index.html" class="text-primary">EXHIBINECTION</a>
       </div>
       <ul class="navbar-button d-flex list-unstyled">
         <li class="d-none d-md-block"><a href="javascript:;" class="me-6">Sign in</a></li>
@@ -32,6 +33,77 @@
 
   <%- contents %>
 
+  <div class="container mb-8">
+    <div class="h1 mb-5 mt-8 fw-bold">猜你也喜歡...</div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card border-0">
+            <img
+              src="./assets/images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body p-0">
+              <h4 class="card-title mt-1 fw-bold">No.22 線上設計展</h4>
+              <p class="card-text mt-1">$350</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card border-0">
+            <img
+              src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body p-0">
+              <h4 class="card-title mt-1 fw-bold">No.22 線上設計展</h4>
+              <p class="card-text mt-1">$350</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card border-0">
+            <img
+              src="./assets/images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body p-0">
+              <h4 class="card-title mt-1 fw-bold">No.22 線上設計展</h4>
+              <p class="card-text mt-1">$350</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card border-0">
+            <img
+              src="./assets/images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body p-0">
+              <h4 class="card-title mt-1 fw-bold">No.22 線上設計展</h4>
+              <p class="card-text mt-1">$350</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="banner d-flex align-items-center"
+    style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true) center center; height: 400px;">
+    <div class="container text-white">
+      <div class="h1 fw-bold">
+        <p>想收到最新消息嗎？</p>
+        <p>快訂閱我們！</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="email"
+              aria-describedby="button-addon2">
+            <button class="btn btn-secondary" type="button" id="button-addon2">訂閱</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="container d-flex justify-content-between pt-6 pb-6">
     <div class="footer-title d-md-flex">
       <p class="me-4">EXHIBINECTION</p>
@@ -43,6 +115,8 @@
     </div>
   </footer>
 
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
